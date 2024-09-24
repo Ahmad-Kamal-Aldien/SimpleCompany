@@ -1,0 +1,57 @@
+﻿@using Compalny.R.PL.ViewModels
+@model RoleViewModel
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Edit</h1>
+
+
+
+
+
+
+
+
+
+
+<form asp-action="Edit">
+
+
+    <div class="form-group">
+        <label asp-for="id" class="col-form-label"></label>
+        <input asp-for="id" class="form-control" />
+        <span asp-validation-for="id" class="text-danger"></span>
+    </div>
+
+
+    <div class="form-group">
+        <label asp-for="RoleName" class="col-form-label"></label>
+        <input asp-for="RoleName" class="form-control" />
+        <span asp-validation-for="RoleName" class="text-danger"></span>
+    </div>
+
+
+  
+
+
+
+
+    <a asp-action="AddOrRemove" asp-route-roleid="@Model.id" class="btn btn-dark">Add Or Remove</a>
+
+
+
+    <input type="submit" value="Save" class="btn btn-primary" />
+    <a asp-controller="Role" asp-action="Index" class="btn btn-light">Back To List</a>
+</form>
+
+@section validation {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}
+
+
+
+
+

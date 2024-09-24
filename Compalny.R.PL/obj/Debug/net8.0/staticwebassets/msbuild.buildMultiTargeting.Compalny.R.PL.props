@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Compalny.R.PL.props" />
+</Project>

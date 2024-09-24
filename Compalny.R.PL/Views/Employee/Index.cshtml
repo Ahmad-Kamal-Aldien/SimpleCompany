@@ -1,0 +1,117 @@
+﻿@using Company.R.DAL.Models
+@model IEnumerable<Employee>
+
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+
+<h1>Index</h1>
+<a asp-controller="Employee" asp-action="Add" class="btn btn-primary">Create Employee</a>
+<br />
+<br />
+
+<form asp-action="">
+    <div class="col-12 d-flex">
+        <input type="text" id="name" name="name" class="form-control w-50 mx-2" />
+        <input type="submit" value="Search" class="btn btn-dark w-25" />
+    </div>
+</form>
+
+
+@if (Model.Count() > 0)
+{
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(D => D.ImageName)</th>
+                <th>@Html.DisplayNameFor(D => D.Name)</th>
+                <th>@Html.DisplayNameFor(D => D.Age)</th>
+                <th>@Html.DisplayNameFor(D => D.Address)</th>
+                <th>@Html.DisplayNameFor(D => D.Email)</th>
+                <th>@Html.DisplayNameFor(D => D.PhoneNumber)</th>
+                <th>@Html.DisplayNameFor(D => D.Salary)</th>
+      
+
+                <th>@Html.DisplayNameFor(D => D.IsActive)</th>
+                <th>@Html.DisplayNameFor(D => D.HiringDate)</th>
+                <th>Details</th>
+                <th>Update</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var emp in Model)
+            {
+
+                <tr>
+                    <td>
+                     
+                        <img src="~/files/images/@emp.ImageName"
+                             width="70" class="img-fluid rounded-circle" />
+                    </td>
+                    <td>@emp.Name</td>
+                    <td>@emp.Age</td>
+                    <td>@emp.Address</td>
+                    @* <td>@emp.Email</td> *@
+                    <td>@Html.DisplayFor(x=>emp.Email)</td>
+
+                   
+
+                    <td>@emp.PhoneNumber</td>
+                    @* <td>@emp.Salary</td> *@
+                    <td>@Html.DisplayFor(x=>emp.Salary)</td>
+
+                    @* <td>@emp.IsActive</td> *@
+                    <td>
+                        <input class="form-check-input" disabled type="checkbox" checked="@emp.IsActive" class="" />
+                    
+
+                    </td>
+
+                    <td>@emp.HiringDate</td>
+
+
+
+
+
+
+
+                    <td>
+                        <a asp-controller="Employee" asp-action="Details" asp-route-id="@emp.Id" class="btn btn-warning">
+                            <i class="fas fa-eye"></i> Details
+                        </a>
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@emp.Id" class="btn btn-success">
+                            <i class="fas fa-edit"></i> Update
+                        </a>
+                    </td>
+                    <td>
+                        <a asp-action="Delete" asp-route-id="@emp.Id" class="btn btn-danger">
+                            <i class="fas fa-trash"></i> Delete
+                        </a>
+                    </td>
+
+
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}
+else
+{
+    <div class="mt-4 alert alert-warning">
+        <h4>There is No Employee :(</h4>
+    </div>
+}
+
+
+
+
+

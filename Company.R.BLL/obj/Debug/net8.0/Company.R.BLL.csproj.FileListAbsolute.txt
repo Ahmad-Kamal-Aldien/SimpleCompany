@@ -1,0 +1,15 @@
+E:\Projects\With VS 2022\Route\Company.r\Company.R.BLL\bin\Debug\net8.0\Company.R.BLL.deps.json
+E:\Projects\With VS 2022\Route\Company.r\Company.R.BLL\bin\Debug\net8.0\Company.R.BLL.dll
+E:\Projects\With VS 2022\Route\Company.r\Company.R.BLL\bin\Debug\net8.0\Company.R.BLL.pdb
+E:\Projects\With VS 2022\Route\Company.r\Company.R.BLL\bin\Debug\net8.0\Company.R.DAL.dll
+E:\Projects\With VS 2022\Route\Company.r\Company.R.BLL\bin\Debug\net8.0\Company.R.DAL.pdb
+E:\Projects\With VS 2022\Route\Company.r\Company.R.BLL\obj\Debug\net8.0\Company.R.BLL.csproj.AssemblyReference.cache
+E:\Projects\With VS 2022\Route\Company.r\Company.R.BLL\obj\Debug\net8.0\Company.R.BLL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\With VS 2022\Route\Company.r\Company.R.BLL\obj\Debug\net8.0\Company.R.BLL.AssemblyInfoInputs.cache
+E:\Projects\With VS 2022\Route\Company.r\Company.R.BLL\obj\Debug\net8.0\Company.R.BLL.AssemblyInfo.cs
+E:\Projects\With VS 2022\Route\Company.r\Company.R.BLL\obj\Debug\net8.0\Company.R.BLL.csproj.CoreCompileInputs.cache
+E:\Projects\With VS 2022\Route\Company.r\Company.R.BLL\obj\Debug\net8.0\Company..293B9228.Up2Date
+E:\Projects\With VS 2022\Route\Company.r\Company.R.BLL\obj\Debug\net8.0\Company.R.BLL.dll
+E:\Projects\With VS 2022\Route\Company.r\Company.R.BLL\obj\Debug\net8.0\refint\Company.R.BLL.dll
+E:\Projects\With VS 2022\Route\Company.r\Company.R.BLL\obj\Debug\net8.0\Company.R.BLL.pdb
+E:\Projects\With VS 2022\Route\Company.r\Company.R.BLL\obj\Debug\net8.0\ref\Company.R.BLL.dll

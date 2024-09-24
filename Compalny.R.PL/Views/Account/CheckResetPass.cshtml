@@ -1,0 +1,18 @@
+﻿@using Compalny.R.PL.ViewModels
+@model ResetViewModel
+@{
+    ViewData["Title"] = "CheckResetPass";
+    Layout = "~/Views/_AuthenticationLayout.cshtml";
+}
+
+<h1>CheckResetPass</h1>
+<form asp-action="CheckResetPass" method="post">
+
+	<input type="password" asp-for="Password" placeholder="Password">
+
+	<input type="password" asp-for="ConfirmedPassword" placeholder="Password">
+
+
+	<input type="submit" value="reset password">
+</form>
+

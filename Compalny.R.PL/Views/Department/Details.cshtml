@@ -1,0 +1,24 @@
+﻿@using Company.R.DAL.Models
+@model Department
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+<div>
+    <div class="form-group">
+        <label asp-for="Code" class="col-form-label"></label>
+        <input readonly asp-for="Code" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Name" class="col-form-label"></label>
+        <input readonly asp-for="Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="DOPCreation" class="col-form-label"></label>
+        <input readonly asp-for="DOPCreation" class="form-control" />
+    </div>
+
+  
+    <a asp-controller="Department" asp-action="Index" class="btn btn-light">Back To List</a>
+</div>

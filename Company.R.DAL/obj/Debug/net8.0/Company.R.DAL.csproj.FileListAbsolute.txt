@@ -1,0 +1,14 @@
+E:\Projects\With VS 2022\Route\Company.r\Company.R.DAL\bin\Debug\net8.0\Company.R.DAL.deps.json
+E:\Projects\With VS 2022\Route\Company.r\Company.R.DAL\bin\Debug\net8.0\Company.R.DAL.dll
+E:\Projects\With VS 2022\Route\Company.r\Company.R.DAL\bin\Debug\net8.0\Company.R.DAL.pdb
+E:\Projects\With VS 2022\Route\Company.r\Company.R.DAL\obj\Debug\net8.0\Company.R.DAL.csproj.AssemblyReference.cache
+E:\Projects\With VS 2022\Route\Company.r\Company.R.DAL\obj\Debug\net8.0\Company.R.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\With VS 2022\Route\Company.r\Company.R.DAL\obj\Debug\net8.0\Company.R.DAL.AssemblyInfoInputs.cache
+E:\Projects\With VS 2022\Route\Company.r\Company.R.DAL\obj\Debug\net8.0\Company.R.DAL.AssemblyInfo.cs
+E:\Projects\With VS 2022\Route\Company.r\Company.R.DAL\obj\Debug\net8.0\Company.R.DAL.csproj.CoreCompileInputs.cache
+E:\Projects\With VS 2022\Route\Company.r\Company.R.DAL\obj\Debug\net8.0\Company.R.DAL.dll
+E:\Projects\With VS 2022\Route\Company.r\Company.R.DAL\obj\Debug\net8.0\refint\Company.R.DAL.dll
+E:\Projects\With VS 2022\Route\Company.r\Company.R.DAL\obj\Debug\net8.0\Company.R.DAL.pdb
+E:\Projects\With VS 2022\Route\Company.r\Company.R.DAL\obj\Debug\net8.0\ref\Company.R.DAL.dll
+E:\Projects\With VS 2022\Route\Company.r\Company.R.DAL\bin\Debug\net8.0\Company.R.DAL.runtimeconfig.json
+E:\Projects\With VS 2022\Route\Company.r\Company.R.DAL\obj\Debug\net8.0\Company.R.DAL.genruntimeconfig.cache

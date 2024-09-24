@@ -1,0 +1,59 @@
+﻿@using Compalny.R.PL.ViewModels
+@model UserViewModel
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Delete</h1>
+
+
+
+
+
+
+
+<h1>Delete</h1>
+<form asp-action="Delete">
+
+
+    <div>
+        <div class="form-group">
+            <label asp-for="Id" class="col-form-label"></label>
+            <input readonly asp-for="Id" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="FirstName" class="col-form-label"></label>
+            <input readonly asp-for="FirstName" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="LastName" class="col-form-label"></label>
+            <input readonly asp-for="LastName" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Email" class="col-form-label"></label>
+            <input readonly asp-for="Email" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Roles" class="col-form-label"></label>
+            <input readonly asp-for="Roles" class="form-control" />
+        </div>
+
+
+
+        <a asp-controller="User" asp-action="Index" class="btn btn-light">Back To List</a>
+    </div>
+
+
+
+
+
+    <input type="submit" value="Delete" class="btn btn-danger" />
+
+
+    <a asp-controller="User" asp-action="Index" class="btn btn-light">Back To List</a>
+</form>
